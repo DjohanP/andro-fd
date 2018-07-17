@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "/home/djohan/AndroidStudioProjects/MyApplication/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/home/djohan/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/djohan/AndroidStudioProjects/MyApplication/app/.externalNativeBuild/cmake/debug/x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/home/djohan/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/djohan/AndroidStudioProjects/MyApplication/app/.externalNativeBuild/cmake/debug/x86 --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/home/djohan/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/djohan/Android/Sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /home/djohan/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/djohan/Android/Sdk/ndk-bundle/sources/android/support/include -isystem /home/djohan/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/djohan/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/djohan/AndroidStudioProjects/MyApplication/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/home/djohan/AndroidStudioProjects/MyApplication/app/.externalNativeBuild/cmake/debug/x86"
+				}
+			],
+			"output" : "/home/djohan/AndroidStudioProjects/MyApplication/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so",
+			"toolchain" : "8722801725002448074"
+		}
+	},
+	"toolchains" : 
+	{
+		"8722801725002448074" : 
+		{
+			"cCompilerExecutable" : "/home/djohan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/djohan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}
