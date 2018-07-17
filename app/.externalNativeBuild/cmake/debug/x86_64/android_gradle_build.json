@@ -1,9 +1,9 @@
 
 {
-	"buildFiles" : [ "/home/djohan/AndroidStudioProjects/MyApplication/app/CMakeLists.txt" ],
+	"buildFiles" : [ "/home/djohan/AndroidStudioProjects/andro-fd/app/CMakeLists.txt" ],
 	"cleanCommands" : 
 	[
-		"/home/djohan/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/djohan/AndroidStudioProjects/MyApplication/app/.externalNativeBuild/cmake/debug/x86_64 --target clean"
+		"/home/djohan/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/djohan/AndroidStudioProjects/andro-fd/app/.externalNativeBuild/cmake/debug/x86_64 --target clean"
 	],
 	"cppFileExtensions" : [ "cpp" ],
 	"libraries" : 
@@ -12,18 +12,18 @@
 		{
 			"abi" : "x86_64",
 			"artifactName" : "native-lib",
-			"buildCommand" : "/home/djohan/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/djohan/AndroidStudioProjects/MyApplication/app/.externalNativeBuild/cmake/debug/x86_64 --target native-lib",
+			"buildCommand" : "/home/djohan/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/djohan/AndroidStudioProjects/andro-fd/app/.externalNativeBuild/cmake/debug/x86_64 --target native-lib",
 			"buildType" : "debug",
 			"files" : 
 			[
 				
 				{
 					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/home/djohan/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64 --sysroot=/home/djohan/Android/Sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /home/djohan/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/djohan/Android/Sdk/ndk-bundle/sources/android/support/include -isystem /home/djohan/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/djohan/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/home/djohan/AndroidStudioProjects/MyApplication/app/src/main/cpp/native-lib.cpp",
-					"workingDirectory" : "/home/djohan/AndroidStudioProjects/MyApplication/app/.externalNativeBuild/cmake/debug/x86_64"
+					"src" : "/home/djohan/AndroidStudioProjects/andro-fd/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/home/djohan/AndroidStudioProjects/andro-fd/app/.externalNativeBuild/cmake/debug/x86_64"
 				}
 			],
-			"output" : "/home/djohan/AndroidStudioProjects/MyApplication/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so",
+			"output" : "/home/djohan/AndroidStudioProjects/andro-fd/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so",
 			"toolchain" : "8722801725002448074"
 		}
 	},

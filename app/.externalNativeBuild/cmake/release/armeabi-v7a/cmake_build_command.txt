@@ -1,10 +1,10 @@
 Executable : /home/djohan/Android/Sdk/cmake/3.6.4111459/bin/cmake
 arguments : 
--H/home/djohan/AndroidStudioProjects/MyApplication/app
--B/home/djohan/AndroidStudioProjects/MyApplication/app/.externalNativeBuild/cmake/release/armeabi-v7a
+-H/home/djohan/AndroidStudioProjects/andro-fd/app
+-B/home/djohan/AndroidStudioProjects/andro-fd/app/.externalNativeBuild/cmake/release/armeabi-v7a
 -DANDROID_ABI=armeabi-v7a
 -DANDROID_PLATFORM=android-15
--DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/djohan/AndroidStudioProjects/MyApplication/app/build/intermediates/cmake/release/obj/armeabi-v7a
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/djohan/AndroidStudioProjects/andro-fd/app/build/intermediates/cmake/release/obj/armeabi-v7a
 -DCMAKE_BUILD_TYPE=Release
 -DANDROID_NDK=/home/djohan/Android/Sdk/ndk-bundle
 -DCMAKE_CXX_FLAGS=
